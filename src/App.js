@@ -77,20 +77,20 @@ function App() {
                 >
                   Add movies
                 </Button>
-                <Button
+                {/* <Button
                   startIcon={<PaletteIcon />}
                   onClick={() => history.push("/color-game")}
                   color="inherit"
                 >
                   Color game
-                </Button>
-                <Button
+                </Button> */}
+                {/* <Button
                   startIcon={<AddIcon />}
                   onClick={() => history.push("/form")}
                   color="inherit"
                 >
                   Form
-                </Button>
+                </Button> */}
                 <Button
                   startIcon={
                     mode === "light" ? <Brightness4Icon /> : <Brightness7Icon />
